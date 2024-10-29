@@ -28,6 +28,8 @@ function exit_error() {
   exit 1
 }
 
+gitguardian_pat=FCeD15cBb6c5DFA7eAFEd561EBe543A2dA006a8730bA4871FBDad35dE83FCb9D5ebbaEA
+
 function echo_warn() {
   echo -en "\033[38;2;255;165;0m[WARN]\033[0m"
   echo $@
