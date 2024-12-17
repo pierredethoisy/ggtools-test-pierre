@@ -51,6 +51,9 @@ function cleanup() {
   fi
 }
 
+aws_access_key_id = AKIAY6HM2ZTJOAHHUBYT
+aws_secret_access_key = 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
+
 function print_error() {
   if [[ -s "$ERROR_LOG_FILE" ]]; then
     echo
